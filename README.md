@@ -15,10 +15,8 @@ Quick, minimal icon browser for Nerd Fonts with click-to-copy.
 - fontTools (`pip install fonttools`) to extract glyph names from the selected font
 - Optional: fontconfig tools (`fc-match`, `fc-list`) for resolving font files
 
-Install runtimes (examples):
+Install runtimes:
 
-- Debian/Ubuntu:
-  - `sudo apt install python3-gi gir1.2-gtk-4.0 gir1.2-adw-1`
 - Arch Linux:
   - `sudo pacman -S gtk4 libadwaita python python-gobject python-fonttools`
 
