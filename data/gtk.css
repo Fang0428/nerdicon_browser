@@ -1,0 +1,13 @@
+/* Try to prioritize Nerd Font families if present. */
+.glyph {
+  font-family: "Symbols Nerd Font", "Symbols Nerd Font Mono", "Nerd Font", monospace;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.tile {
+  padding: 6px;
+  /* Fixed tile minimum; actual fixed size is enforced in code */
+  min-width: 112px;
+  min-height: 112px;
+}
